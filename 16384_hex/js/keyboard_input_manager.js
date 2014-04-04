@@ -35,14 +35,12 @@ KeyboardInputManager.prototype.listen = function () {
   var self = this;
 
   var map = {
-    39: 2, // Right
-    37: 3, // Left
-    87: 0, // W
-    69: 1, // E
-    65: 2, // A
-    68: 3, // D
-    90: 4, // Z
-    88: 5  // X
+    188: 0, // ,
+    190: 1, // .
+    65: 2,  // A
+    69: 3,  // E
+    186: 4, // ;
+    81: 5   // Q
   };
 
   document.addEventListener("keydown", function (event) {
