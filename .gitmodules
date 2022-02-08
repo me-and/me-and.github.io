@@ -1,3 +1,6 @@
 [submodule "16384_hex"]
 	path = 16384_hex
 	url = https://github.com/me-and/16384-dvorak
+[submodule "checkboxen"]
+	path = checkboxen
+	url = https://github.com/me-and/checkboxen
